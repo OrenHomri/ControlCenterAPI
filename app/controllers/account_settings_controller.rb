@@ -18,7 +18,7 @@ class AccountSettingsController < ApplicationController
 
 	def change_password
 		sso_id = params['sso_id']
-		new_password = params['ew_password']
+		new_password = params['new_password']
 		render :text => 'Changed password for sso id ' + sso_id + '. New paswword is: ' + new_password
 	end
 end
