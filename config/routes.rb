@@ -1,4 +1,10 @@
 ControlCenterAPI::Application.routes.draw do
+  get "account_settings/index"
+  get "account_settings/users"
+  get "account_settings/change_email"
+  get "account_settings/change_password"
+  get "products/index"
+  get "products/top_products"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
